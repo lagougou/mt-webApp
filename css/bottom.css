@@ -1,0 +1,66 @@
+/*bottom-bar*/
+.bottom-bar {
+    width: 100%;
+    height: 1.44rem;
+    background-color: #fcfcfc;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+
+.item-link {
+    display: block;
+    flex-grow: 1;
+    height: 100%;
+    font-size: 0.346667rem;
+    color: #747474;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-icon {
+    display: block;
+    width: 0.64rem;
+    height: 0.64rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-link .home {
+    background-image: url('../image/bottom/homeIcon.png');
+}
+
+.item-link .order {
+    background-image: url('../image/bottom/orderIcon.png');
+}
+
+.item-link .my {
+    background-image: url('../image/bottom/myIcon.png');
+}
+
+.link-text {
+    margin-top: 0.106667rem;
+    display: block;
+
+}
+
+.item-link-active .home {
+    background-image: url('../image/bottom/homeIconActive.png');
+}
+
+.item-link-active .order {
+    background-image: url('../image/bottom/orderIconActive.png');
+}
+
+.item-link-active .my {
+    background-image: url('../image/bottom/myIconActive.png');
+}
+
+.item-link-active {
+    color: #434343;
+}

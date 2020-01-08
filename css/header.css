@@ -1,0 +1,208 @@
+.page-header {
+    position: relative;
+    height: 4.746667rem;
+}
+
+.page-header .header-img {
+    width: 100%;
+    height: 4.746667rem;
+    vertical-align: top;
+}
+
+.page-header .search-bar {
+    width: 100%;
+    height: 1.066667rem;
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.213333rem;
+}
+
+.page-header .bar-location {
+    margin-right: 0.533333rem;
+    border-radius: 0.346667rem;
+    background-color: rgba(0, 0, 0, 0.33);
+    width: 2.453333rem;
+    height: 0.746667rem;
+}
+
+.page-header .location-icon {
+    display: inline-block;
+    height: 0.533333rem;
+    width: 0.4rem;
+    vertical-align: 0.213333rem;
+    margin-left: 0.133333rem;
+    background-image: url("../image/header/locationIcon.png");
+    background-size: cover;
+}
+
+.page-header .location-text {
+    display: inline-block;
+    vertical-align: 0.35rem;
+    color: #fff;
+    font-size: 0.373333rem;
+    margin-left: -0.266667rem;
+    position: relative;
+}
+
+.page-header .location-text:after {
+    content: ' ';
+    display: inline-block;
+    width: 0.373333rem;
+    height: 0.373333rem;
+    background-image: url("../image/header/arrowIcon.png");
+    background-size: cover;
+    position: absolute;
+    right: -0.48rem;
+}
+
+.page-header .search-button {
+    position: relative;
+    width: 4.533333rem;
+    height: 0.8rem;
+    background-color: #fff;
+    border-radius: 0.533333rem;
+    font-size: 0.373333rem;
+
+}
+
+.page-header .place-holder {
+    line-height: 0.8rem;
+    margin-left: 0.64rem;
+    position: relative;
+}
+
+.page-header .place-holder:before {
+    content: ' ';
+    display: block;
+    width: 0.48rem;
+    height: 0.48rem;
+    position: absolute;
+    background-image: url("../image/header/searchIcon.png");
+    background-size: cover;
+    left: -0.533333rem;
+    top: 0.133333rem;
+}
+
+/*category layout */
+.category-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.category-item {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 0.32rem;
+}
+
+
+
+.item-icon {
+    width: 1.653333rem;
+    height: 1.653333rem;
+}
+
+.item-name {
+    flex-basis: 100%;
+    font-size: 0.346667rem;
+    text-align: center;
+    margin-top: 0.32rem;
+}
+
+/*商家列表*/
+.list-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.533333rem;
+    padding-bottom: 0.266667rem;
+}
+
+.title-line {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.026667rem;
+    background-color: #949494;
+}
+
+.title-text {
+    font-size: 0.48rem;
+    margin: 0 0.16rem;
+}
+
+.store-item {
+    padding: 0.32rem 0;
+    margin: 0 0.266667rem;
+    color: #656565;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 0.32rem;
+    border-bottom: 1px solid #949494;
+}
+
+.store-img {
+    display: block;
+    width: 2.5rem;
+    height: 1.875rem;
+    border: 0.026667rem solid #e4e4e4;
+}
+
+.store-content {
+    flex-grow: 1;
+    margin-left: 0.266667rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0.053333rem;
+}
+
+.store-name {
+    font-size: 0.426667rem;
+    font-weight: bold;
+    color: #131313;
+
+}
+
+.store-info {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.store-rating {
+    margin: 0.4rem 0;
+}
+
+.store-rating img {
+    width: 0.32rem;
+}
+
+.store-discount {
+    width: 6.666667rem;
+    /*margin-left: 2.766667rem;*/
+}
+
+.discount-info {
+    margin-top: 0.213333rem;
+}
+
+.discount-icon {
+    display: inline-block;
+    width: 0.32rem;
+    height: 0.32rem;
+    vertical-align: top;
+    /*margin-top: 0.053333rem;*/
+    margin-right: 0.08rem;
+}
