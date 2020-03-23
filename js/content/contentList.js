@@ -1,5 +1,5 @@
 (function() {
-    var itemTplm = '<div class="store-item">' +
+    var itemTplm = '<a href="menu/menu.html"><div class="store-item">' +
         '<img class="store-img" src="$url">' +
         '<div class="store-content">' +
         '<p class="store-name">$name</p>' +
@@ -14,7 +14,7 @@
         '</div>' +
         // '<div class="store-discount">$discount</div>' +
 
-        '</div>';
+        '</div></a>';
 
     var $content = $('.list-wrapper');
 
